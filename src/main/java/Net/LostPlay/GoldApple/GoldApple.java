@@ -1,7 +1,6 @@
  package Net.LostPlay.GoldApple;
 
 
-
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
@@ -27,8 +26,8 @@ import org.bukkit.plugin.java.JavaPlugin;
 
      Bukkit.getServer().getPluginManager().registerEvents(this, this);
    }
-   public void onDisable()
-   {
+
+     public void onDisable() {
    }
 
    private void Gold_Apple() {
@@ -46,4 +45,4 @@ import org.bukkit.plugin.java.JavaPlugin;
     craft2.setIngredient('+', Material.GOLD_BLOCK);
      Bukkit.getServer().addRecipe(craft2);
    }
-}
+ }

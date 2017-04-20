@@ -12,10 +12,17 @@
             <id>spigot-repo</id>
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
+            <repository>
+                <id>inventive-repo</id>
+                <url>https://repo.inventivetalent.org/content/groups/public/</url>
+            </repository>
     </repositories>
     <dependencies>
-        <!--Spigot API-->
-    <dependency>
+        <dependency>
+            <groupId>org.inventivetalent.spiget-update</groupId>
+            <artifactId>bukkit</artifactId>
+        </dependency>
+        <dependency>
         <groupId>org.spigotmc</groupId>
         <artifactId>spigot-api</artifactId>
         <version>1.11.2-R0.1-SNAPSHOT</version>
