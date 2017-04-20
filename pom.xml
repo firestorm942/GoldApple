@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>Net.LostPlay</groupId>
-    <artifactId>AutoUpnp</artifactId>
+    <artifactId>GoldApple</artifactId>
     <version>3.0</version>
     <repositories>
         <repository>
