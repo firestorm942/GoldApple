@@ -1,0 +1,2 @@
+# GoldApple
+GoldApple Spigot Plugin
