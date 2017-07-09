@@ -36,7 +36,7 @@ import org.bukkit.plugin.java.JavaPlugin;
      meta.setDisplayName(ChatColor.GOLD + "Golden Apple");
      Leggings.setItemMeta(meta);
 
-     ShapedRecipe craft2 = new ShapedRecipe(Leggings);
+     @SuppressWarnings("deprecation") ShapedRecipe craft2 = new ShapedRecipe(Leggings);
      craft2.shape(new String[] {
        "+++",
        "+*+",
