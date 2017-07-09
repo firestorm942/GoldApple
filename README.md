@@ -1,2 +1,2 @@
-# GoldApple
-GoldApple Spigot Plugin
+# SuperApple
+SuperApple Spigot Plugin
