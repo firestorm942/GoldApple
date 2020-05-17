@@ -17,7 +17,7 @@
         <dependency>
         <groupId>org.spigotmc</groupId>
         <artifactId>spigot-api</artifactId>
-        <version>1.12-R0.1-SNAPSHOT</version>
+        <version>1.15.2-R0.1-SNAPSHOT</version>
         <scope>provided</scope>
     </dependency>
     </dependencies>
@@ -35,7 +35,7 @@
             <!-- MainClass in manifest make a executable jar -->
             <archive>
                 <manifest>
-                    <mainClass>Net.LostPlay.SuperApple.SuperApple</mainClass>
+                    <mainClass>org.fstm942.SuperApple.Main</mainClass>
                 </manifest>
             </archive>
         </configuration>

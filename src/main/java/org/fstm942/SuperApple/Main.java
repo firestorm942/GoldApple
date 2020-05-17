@@ -1,4 +1,4 @@
- package Net.LostPlay.SuperApple;
+ package org.fstm942.SuperApple;
 
 
 import org.bukkit.Bukkit;
@@ -13,7 +13,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 
 
- public class SuperApple
+ public class Main
    extends JavaPlugin implements Listener
  {
    public void onEnable()
@@ -31,16 +31,17 @@ import org.bukkit.plugin.java.JavaPlugin;
    }
 
    private void Super_Apple() {
-     ItemStack Leggings = new ItemStack(Material.GOLDEN_APPLE, 1, (short)1);
+     @SuppressWarnings("deprecation") ItemStack Leggings = new ItemStack(Material.GOLDEN_APPLE, 1, (short)1);
      ItemMeta meta = Leggings.getItemMeta();
-     meta.setDisplayName(ChatColor.GOLD + "Golden Apple");
+       assert meta != null;
+       meta.setDisplayName(ChatColor.GOLD + "Golden Apple");
      Leggings.setItemMeta(meta);
 
      @SuppressWarnings("deprecation") ShapedRecipe craft2 = new ShapedRecipe(Leggings);
-     craft2.shape(new String[] {
-       "+++",
-       "+*+",
-       "+++" });
+     craft2.shape(
+             "+++",
+             "+*+",
+             "+++");
     craft2.setIngredient('*', Material.APPLE);
     craft2.setIngredient('+', Material.GOLD_BLOCK);
      Bukkit.getServer().addRecipe(craft2);

@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="AutoUpnp" />
         <module name="GoldApple" />
+        <module name="SuperApple" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="AutoUpnp" target="1.5" />
       <module name="GoldApple" target="1.5" />
+      <module name="SuperApple" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
