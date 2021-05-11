@@ -12,9 +12,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="AutoUpnp" target="1.5" />
-      <module name="GoldApple" target="1.5" />
-      <module name="SuperApple" target="1.5" />
+      <module name="SuperApple" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

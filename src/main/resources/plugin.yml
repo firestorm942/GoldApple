@@ -1,3 +1,3 @@
 name: SuperApple
-main: Net.LostPlay.SuperApple.SuperApple
-version: 1.0
+main: org.fstm942.SuperApple.Main
+version: 1.0-snapshot
