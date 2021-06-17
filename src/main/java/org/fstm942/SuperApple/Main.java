@@ -38,12 +38,9 @@ import org.bukkit.plugin.java.JavaPlugin;
      Leggings.setItemMeta(meta);
 
      @SuppressWarnings("deprecation") ShapedRecipe craft2 = new ShapedRecipe(Leggings);
-     craft2.shape(
-             "+++",
-             "+*+",
-             "+++");
-    craft2.setIngredient('*', Material.APPLE);
-    craft2.setIngredient('+', Material.GOLD_BLOCK);
+     craft2.shape("+++", "+*+", "+++");
+     craft2.setIngredient('*', Material.APPLE);
+     craft2.setIngredient('+', Material.GOLD_BLOCK);
      Bukkit.getServer().addRecipe(craft2);
    }
  }
